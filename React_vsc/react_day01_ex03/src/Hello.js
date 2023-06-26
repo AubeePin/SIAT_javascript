@@ -3,7 +3,7 @@
 function Hello() {
   return (
     <>
-      <h2>Hello 표작성?.</h2>
+      <h2>오늘의 할일</h2>
     </>
   );
 }
