@@ -7,7 +7,7 @@ function TodoList({todoList, appendFn, newVal}) {
   var list = todoList.map((item, i) => {
     return <li key={i}><input type="checkbox" />{item.seq} :<span style={{textDecoration:'line-throght'}}>{item.work}</span> ({item.done?'O':'X'}) <button>삭제</button></li>
   });
-  return (<>
+  return (<> 
     <h2>{newVal} Todo List</h2>
     할일 : <input type="text" value={newWork} onChange={function(e) {
       // input의 데이터가 바뀔때 마다 변수에 즉시 저장 -> value도 바뀐다.
